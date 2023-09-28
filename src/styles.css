@@ -18,9 +18,10 @@
     margin: 1vw;
 }
 .prof-pic{
-    width: 25vw;
-    height: auto;
+    width: 16vw;
+    height: 16vw;
     border-radius: 50%;
+    overflow: hidden;
 }
 .profile-info{
     display: flex;

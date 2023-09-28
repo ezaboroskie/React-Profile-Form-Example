@@ -22,7 +22,7 @@ const MyCarousel = ({ profList }) => {
                 <button className='carousel-btn' onClick={handlePrevClick}>Prev</button>
                 <div className='profile-info'>
                     <h3>{profList[indexActive].fName} {profList[indexActive].lName}</h3>
-                    <p>Birthday: {profList[indexActive].bDate}</p>
+                    <p>{profList[indexActive].bDate}</p>
                     <img className='prof-pic' src={profList[indexActive].profPic} alt={`Profile of ${profList[indexActive].fName}`} />
                 </div>
                 <button className='carousel-btn' onClick={handleNextClick}>Next</button>

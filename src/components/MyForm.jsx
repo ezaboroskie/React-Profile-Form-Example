@@ -43,7 +43,11 @@ const MyForm = ({updateProfList, profList})=>{
                 <input onChange={(e)=>handleLNameChange(e)} name='lName' value={lName} placeholder='Last Name' autoComplete='off'></input>
                 <input onChange={(e)=>handleDateChange(e)} name='bDate' value={bDate} placeholder='Birth Year' autoComplete='off'></input>
                 <button onClick={fetchPic}>Generate a Profile Picture</button>
-                <img className='prof-pic' src={profPic}></img>
+                {profPic !== '' ? (
+                    <img className='prof-pic' src={profPic}></img>
+                ):(
+                    <></>
+                )}
                 <button onClick={handleSubmitProfile}>Submit Profile</button>
             </div>
         </>
