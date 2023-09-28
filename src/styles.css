@@ -1,0 +1,43 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container button{
+    margin: 1vw;
+    background-color: rgb(55, 114, 231);
+    color: aliceblue
+}
+.form-container input{
+    margin: 1vw;
+}
+.prof-pic{
+    width: 25vw;
+    height: auto;
+    border-radius: 50%;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+}
+.carousel-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 5px rgb(55, 114, 231) solid ;
+    border-radius: .5vw;
+    padding: 2vw
+}
+.carousel-container h3{
+    margin: 0;
+    padding: 0
+}
+.carousel-btn{
+    margin-top: 3vh;
+}
